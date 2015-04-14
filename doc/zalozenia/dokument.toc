@@ -1,0 +1,13 @@
+\select@language {polish}
+\contentsline {section}{\numberline {1}Opis projektu}{3}
+\contentsline {subsection}{\numberline {1.1}Konstrukcja robota}{3}
+\contentsline {subsection}{\numberline {1.2}Cel projektu}{3}
+\contentsline {subsection}{\numberline {1.3}Protok\IeC {\'o}\IeC {\l } komunikacyjny}{3}
+\contentsline {subsection}{\numberline {1.4}Por\IeC {\'o}wnanie z innymi projektami}{4}
+\contentsline {section}{\numberline {2}Plan pracy}{4}
+\contentsline {subsection}{\numberline {2.1}Kamienie milowe}{4}
+\contentsline {subsection}{\numberline {2.2}Szczeg\IeC {\'o}\IeC {\l }owy plan pracy}{4}
+\contentsline {section}{\numberline {3}Dor\IeC {\k e}czenie}{6}
+\contentsline {section}{\numberline {4}Bud\IeC {\.z}et}{6}
+\contentsline {section}{\numberline {5}Zarz\IeC {\k a}dzanie projektem i jego monitorowanie}{6}
+\contentsline {section}{\numberline {6}Przydzia\IeC {\l } zada\IeC {\'n}}{6}
