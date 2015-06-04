@@ -1,4 +1,5 @@
 #include "main.h"
+#include "HCSR04.h"
 
 extern uint16_t TIM2_RESOLUTION_NS;
 

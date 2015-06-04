@@ -28,11 +28,14 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "init.h"
+#include "motorHCSR04.h"
+#include "HCSR04.h"
+#include "bluetoothController.h"
 
 
 static __IO uint32_t uwTimingDelay;
 
-static void Delay(__IO uint32_t nTime);
+ void Delay(__IO uint32_t nTime);
 
 // **************** constants *****************************
 
@@ -41,13 +44,30 @@ static void Delay(__IO uint32_t nTime);
 
 int main(void)
 {
+	short kierunek = -1;
+	int32_t testTab[20];
+	struct Message testMsg;
+	testMsg.Args = testTab;
+	
   init();
+	BC_initTMLibrary();
   while (1)
   {
 		float distance = measureDistance();
-		USART_SendData(USART1, 'x');
-		//sKrokObroc(45.0f , 20.0f);
-		Delay(4); // 40ms
+		if(kierunek == -1)
+			kierunek = 1;
+		else
+			kierunek = -1;
+	//	znak = USART_ReceiveData(USART1);
+	//	Delay(500);
+	//	USART_SendData(USART1, znak);
+		if(BC_isSomething())
+		{
+			BC_readMessage(&testMsg);
+			BC_sendMessage(&testMsg);
+		}
+		sKrokObroc(10 , 2.0f, kierunek);
+		Delay(100); // 1s
   }
 }
 
@@ -78,7 +98,7 @@ void EXTI0_IRQHandler(void)
 
 /**
   * @brief  Inserts a delay time.
-  * @param  nTime: specifies the delay time length, in milliseconds.
+  * @param  nTime: specifies the delay time length, in 10x milliseconds.
   * @retval None
   */
 void Delay(__IO uint32_t nTime)

@@ -39,6 +39,9 @@
 /* Exported functions ------------------------------------------------------- */
 void TimingDelay_Decrement(void);
 
+
+
 #endif /* __MAIN_H */
 
+void Delay(__IO uint32_t nTime);
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
