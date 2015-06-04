@@ -31,6 +31,7 @@
 #include "motorHCSR04.h"
 #include "HCSR04.h"
 #include "bluetoothController.h"
+#include "constants.h"
 
 
 static __IO uint32_t uwTimingDelay;
@@ -44,31 +45,41 @@ static __IO uint32_t uwTimingDelay;
 
 int main(void)
 {
-	short kierunek = -1;
-	int32_t testTab[20];
-	struct Message testMsg;
-	testMsg.Args = testTab;
+	struct Message msg;
+	int32_t msgTab[100];
+	uint8_t ok;
 	
   init();
 	BC_initTMLibrary();
-  while (1)
-  {
-		float distance = measureDistance();
-		if(kierunek == -1)
-			kierunek = 1;
-		else
-			kierunek = -1;
-	//	znak = USART_ReceiveData(USART1);
-	//	Delay(500);
-	//	USART_SendData(USART1, znak);
+	msg.Args = msgTab;
+	
+	while(1)
+	{
 		if(BC_isSomething())
 		{
-			BC_readMessage(&testMsg);
-			BC_sendMessage(&testMsg);
+			ok = BC_readMessage(&msg);
+			//if(ok)
+			switch(msg.type)
+			{
+				case MSG_SCAN_COMMAND: 
+					break;
+				case MSG_DRIVE_COMMAND: 
+					break;
+				case MSG_STEPPER_MOVE: 
+					if(msg.cArgs == 3)
+						sKrokObroc(msg.Args[1],msg.Args[2],msg.Args[0]);
+					msg.cArgs = 0;
+					msg.type = MSG_OK;
+					break;
+				default: 
+					msg.cArgs = 0;
+					msg.type = MSG_NOK;
+					break;
+			}
+			BC_sendMessage(&msg);
 		}
-		sKrokObroc(10 , 2.0f, kierunek);
-		Delay(100); // 1s
-  }
+		Delay(50);
+	}
 }
 
 // ***************** Interupts ***************************************

@@ -1,5 +1,7 @@
 #include "main.h"
 #include "motorHCSR04.h"
+#include "constants.h"
+#include "HCSR04.h"
 
 const float sKrokKat = 0.087890625f;        // Ile stopni / krok silnika
 
@@ -12,7 +14,22 @@ uint8_t sKrokSterowanie [][4] = {  {1, 0, 0, 1},
                                 {0, 0, 1, 1},
                                 {0, 0, 0, 1} };
        
-        
+void skanujOtoczenie(uint8_t * cPoints, float vKatNaS, int32_t * tab)
+{
+	float interwal = SK_RANGE_DEGREES / (*cPoints);
+	float zakres = SK_RANGE_DEGREES / 2.0;
+	float i;
+	*cPoints = 0;
+	for(i = -zakres; i<zakres; i = i + interwal)
+	{
+		tab[(*cPoints)*2] = i;
+		tab[(*cPoints)*2+1] = measureDistance();
+		
+		sKrokObroc(interwal,vKatNaS,0);
+		(*cPoints)++;
+	}
+	sKrokObroc(interwal*((*cPoints)-1),vKatNaS,1);
+}								
                          
 void sKrokObroc(float kat, float vKatNaS, short kierunek)
 {

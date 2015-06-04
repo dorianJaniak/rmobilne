@@ -917,6 +917,41 @@
               <FileType>5</FileType>
               <FilePath>.\project_files\HCSR04.h</FilePath>
             </File>
+            <File>
+              <FileName>attributes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\project_files\attributes.h</FilePath>
+            </File>
+            <File>
+              <FileName>defines.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\project_files\defines.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\project_files\tm_stm32f4_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\project_files\tm_stm32f4_gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\project_files\tm_stm32f4_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>tm_stm32f4_usart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\project_files\tm_stm32f4_usart.h</FilePath>
+            </File>
+            <File>
+              <FileName>bluetoothController.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\project_files\bluetoothController.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
