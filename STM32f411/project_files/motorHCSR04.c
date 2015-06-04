@@ -36,7 +36,7 @@ void sKrokObroc(float kat, float vKatNaS, short kierunek)
 	static int ostatniPodKrok = 0;
 	int przerwaMS, krokow;
 	//uint32_t start;
-	if(vKatNaS > 45.0f) vKatNaS = 45.0f;
+	if(vKatNaS > 8.0f) vKatNaS = 8.0f;
 	
 	przerwaMS = (int)(1000.0f/(vKatNaS * 11.38f));
 	krokow = (int)(kat/sKrokKat)+ostatniPodKrok;
