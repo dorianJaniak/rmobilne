@@ -45,6 +45,9 @@ static __IO uint32_t uwTimingDelay;
 
 int main(void)
 {
+	float measureTest;
+	uint8_t cPoints;
+	
 	struct Message msg;
 	int32_t msgTab[100];
 	uint8_t ok;
@@ -55,6 +58,8 @@ int main(void)
 	
 	while(1)
 	{
+		cPoints = 10;
+		measureTest = measureDistance();
 		if(BC_isSomething())
 		{
 			ok = BC_readMessage(&msg);
@@ -62,6 +67,11 @@ int main(void)
 			switch(msg.type)
 			{
 				case MSG_SCAN_COMMAND: 
+					if(msg.cArgs == 2)
+					{
+						msg.cArgs = msg.Args[0];
+						skanujOtoczenie(&(msg.cArgs), msg.Args[1], msg.Args);
+					}
 					break;
 				case MSG_DRIVE_COMMAND: 
 					break;

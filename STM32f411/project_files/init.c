@@ -22,13 +22,13 @@ void initGpio()
   GPIO_Init(GPIOA, &gpioInitStruct);
 	// ****************************************************
 	
-	// ******************** PC1 ***************************
-	gpioInitStruct.GPIO_Pin = GPIO_Pin_1;
+	// ******************** PC1/PC4 ***************************
+	gpioInitStruct.GPIO_Pin = GPIO_Pin_4;
 	GPIO_Init(GPIOC, &gpioInitStruct);
 	// ****************************************************
 	
-	// ******************** PC0 ***************************
-	gpioInitStruct.GPIO_Pin = GPIO_Pin_0;
+	// ******************** PC0/PC5 ***************************
+	gpioInitStruct.GPIO_Pin = GPIO_Pin_5;
 	gpioInitStruct.GPIO_Mode = GPIO_Mode_IN;
 	gpioInitStruct.GPIO_PuPd = GPIO_PuPd_DOWN;
 	GPIO_Init(GPIOC, &gpioInitStruct);
