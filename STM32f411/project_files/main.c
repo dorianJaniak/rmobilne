@@ -72,6 +72,14 @@ int main(void)
 					}
 					break;
 				case MSG_DRIVE_COMMAND: 
+					if(msg.cArgs == 4)
+					{
+						msg.Args[0] = msg.Args[1];
+						msg.Args[1] = msg.Args[2];
+						msg.Args[2] = msg.Args[3];
+						msg.cArgs = 3;
+						msg.type = MSG_DRIVE_RESULT;
+					}
 					break;
 				case MSG_STEPPER_MOVE: 
 					if(msg.cArgs == 3)

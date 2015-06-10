@@ -28,7 +28,7 @@ void skanujOtoczenie(uint16_t * cArgs, float vKatNaS, int32_t * tab)
 		oKrok = 0;
 		if(i+interwal <= zakres)
 		{
-			sKrokObroc(interwal,vKatNaS,0);
+			sKrokObroc(interwal,vKatNaS,1);
 			(*cArgs)++;
 			oKrok = 1;
 		}
@@ -37,7 +37,7 @@ void skanujOtoczenie(uint16_t * cArgs, float vKatNaS, int32_t * tab)
 	for(i = zakres; i>=-zakres; i = i - interwal)
 	{
 		if( i - interwal >= -zakres)
-			sKrokObroc(interwal,vKatNaS, 1);
+			sKrokObroc(interwal,vKatNaS, 0);
 		Delay(2);
 	}
 	//sKrokObroc((*cArgs)*interwal,vKatNaS,1);
