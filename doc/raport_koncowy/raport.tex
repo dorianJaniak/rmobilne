@@ -9,6 +9,7 @@
 \usepackage{lmodern}
 \usepackage{pdfpages}
 \usepackage{float}
+\usepackage{tabularx}
 
 \author{Dorian Janiak, Marcin Ochman}
 \title{Sprawozdanie projektowe z Robotów Mobilnych nr 2}
@@ -80,6 +81,18 @@ Celem projektu było stworzenie robota mobilnego potrafiącego skanować otoczen
 \section{Krótki opis projektu}
 Projekt składał się z dwóch części. Pierwszą częśc miał stanowić robot mobilny, którego system jedzny miał być zbudowany z dwóch kół zamieszczonych w połowie długości stelażu. Zadaniem robota było skanowanie otoczenia przy użyciu sonarowego czujnika odległości. \newline
 Drugą część projektu miała stanowić aplikacja komputerowa, która wizualizuje otrzymywane pomiary od robota oraz powala na sterowanie robotem. 
+
+\section{Doręczenie}
+\input{doreczenie.tex}
+
+\section{Budżet}
+\input{budzet.tex}
+
+\section{Zarządzanie projektem i jego monitorowanie}
+\input{zarzadzanie.tex}
+
+\section{Przydział zadań}
+\input{przydzial_zadan.tex}
 
 \section{Funkcjonalność}
 Poniżej zostały opisane części funkcjonalności oddzielnie dla robota oraz aplikacji komputerowej.
@@ -244,7 +257,7 @@ Przewody żyłowe & 9.99 & TAK\\ \hline\hline
 \end{center}
 \end{table}
 
-\subsection{Diagram dotyczący przepływu sterowania w robocie}
+\subsection{Oprogramowanie robota}
 Na rysunku \ref{moduly_robota_pc} została przedstawiona komunikacja pomiędzy poszczególnymi modułami robota(zaznaczone na niebiesko). Diagram ten definiuje w jaki sposób wygląda sterowanie robotem oraz komunikacja pomiędzy komputerem osobistym. Widać, że za całe sterowanie jest odpowiedzialny \textit{STM32}. To on powinien decydować jak mają poruszać się silniki, jak powinny być przetworzone informacje z enkoderów oraz czujnika ultradźwiękowego. Ostatecznie to on jest odpowiedzialny za wysyłanie oraz odbieranie informacji i przetwarzanie komend przychodzących z komputera. 
 \begin{figure}[H]
 \centering
@@ -252,6 +265,8 @@ Na rysunku \ref{moduly_robota_pc} została przedstawiona komunikacja pomiędzy p
 \caption{Diagram przedstawiający moduły robota i PC oraz komunikację pomiędzy nimi}
 \label{moduly_robota_pc}
 \end{figure}
+
+Oprogramowanie robota zostało napisane przy użyciu środowiska Keil $\mu$Vision 5. W projekcie wyorzystaliśmy bibliotekę standard peripheral library
 
 \subsection{Ostateczny efekt robota}
 Ostatecznie połączone zostały ze sobą sekcja zasilania, moduł NUCLEO, silnik krokowy sterowany przy użyciu sterownika ULN2003, moduł Bluetooth HC-05 oraz czujnik ultradźwiękowy HC-SR04. W tej sytuacji robot nie może się sam przemieszczać, ale za to jest w stanie wykonywać skanowanie otoczenia co było tematem naszego projektu. \newline
@@ -346,7 +361,8 @@ W ramach testu przeprowadzone zostało skanowanie mieszkania. Przeskanowane zost
 \end{figure}
 
 \section{Podsumowanie}
-??
+
+Niestety, nie udało nam się w całości zrealizować projektu opisanego w pierwszym dokumencie z założeniami projektowymi. Nie zrealizowaliśmy funkcjonalności poruszania się robota. Przyczyną był źle ułożony harmonogram, który zakładał, że zrobimy znacznie więcej niż byliśmy w stanie wykonać. Praca nad innymi, równie ambitnymi projektami w tym semestrze spowodowała, że prace nad robotem posuwały się niewystarczająco szybko, co spowodowało, że nie byliśmy w stanie zbudować robota na czas. Jesteśmy jednak zadowoleni z wykonanej pracy, ponieważ robot daje możliwość skanowania otoczenia i jego wizualizacji w trybie 3D.
 
 \section{Materiały źródłowe}
 
@@ -364,5 +380,6 @@ Natomiast do obsługi modułów robota zosały wykorzystane informacje zawarte p
 \item http://www.python.rk.edu.pl/w/p/sterowanie-silnikami-krokowymi-i-serwomechanizmami-za-pomoca-pymcu/
 \item http://www.bajdi.com/adding-encoders-to-those-cheap-yellow-motors/
 \end{itemize}
+
 
 \end{document}

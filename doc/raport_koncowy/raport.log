@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.10)  15 JUN 2015 19:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.10)  15 JUN 2015 19:13
 entering extended mode
-**dokument.tex
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\dokument.tex
+**raport.tex
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -320,57 +320,28 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 346.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
-Package: parskip 2001/04/09 non-zero parskip adjustments
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count88
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-\lst@mode=\count89
+\lst@mode=\count88
 \lst@gtempboxa=\box26
 \lst@token=\toks17
-\lst@length=\count90
+\lst@length=\count89
 \lst@currlwidth=\dimen108
-\lst@column=\count91
-\lst@pos=\count92
+\lst@column=\count90
+\lst@pos=\count91
 \lst@lostspace=\dimen109
 \lst@width=\dimen110
-\lst@newlines=\count93
-\lst@lineno=\count94
+\lst@newlines=\count92
+\lst@lineno=\count93
 \lst@maxwidth=\dimen111
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count95
-\lst@skipnumbers=\count96
+\c@lstnumber=\count94
+\lst@skipnumbers=\count95
 \lst@framebox=\box27
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -378,9 +349,6 @@ File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -395,9 +363,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count97
-\Gm@cntv=\count98
-\c@Gm@tempcnt=\count99
+\Gm@cnth=\count96
+\Gm@cntv=\count97
+\c@Gm@tempcnt=\count98
 \Gm@bindingoffset=\dimen112
 \Gm@wd@mp=\dimen113
 \Gm@odd@mp=\dimen114
@@ -409,6 +377,39 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks18
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Encoding `OT4' has changed to `OT1' for symbol font
@@ -498,13 +499,13 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count103
 \AM@templatesizebox=\box29
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count104
+\float@exts=\toks20
+\float@box=\box30
+\@float@everytoks=\toks21
+\@floatcapt=\box31
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
@@ -513,7 +514,7 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen124
 \extrarowheight=\dimen125
-\NC@list=\toks20
+\NC@list=\toks22
 \extratabsurround=\skip46
 \backup@length=\skip47
 )
@@ -522,44 +523,29 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@old@col=\dimen128
 \TX@target=\dimen129
 \TX@delta=\dimen130
-\TX@cols=\count104
-\TX@ftn=\toks21
+\TX@cols=\count105
+\TX@ftn=\toks23
 )
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\dokument.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 27.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for OT4+lmr on input line 18.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot4lmr.fd"
+File: ot4lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen131
-\scratchbox=\box30
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen132
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks23
-)
-\c@lstlisting=\count111
+\c@lstlisting=\count106
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -595,135 +581,300 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box31
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 34.
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen131
+\scratchbox=\box32
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen132
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks25
+)
+\AtBeginShipoutBox=\box33
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 53.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 34.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 34.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 53.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 34.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 53.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 34.
+(Font)              <10> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <7> on input line 53.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <5> on input line 53.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\dokument.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-)
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.toc)
 \tf@toc=\write3
-
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\dokument.lot)
-\tf@lot=\write4
-
-[2]
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\opis_projektu.te
-x
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 11.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 9--16
-
- []
-
-[3])
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\plan_pracy.tex
-<MS_Project.pdf, id=17, 816.53053pt x 573.46246pt>
-File: MS_Project.pdf Graphic file (type pdf)
- <use MS_Project.pdf>
-Package pdftex.def Info: MS_Project.pdf used on input line 25.
-(pdftex.def)             Requested size: 816.52855pt x 573.46106pt.
-File: MS_Project.pdf Graphic file (type pdf)
-
-<use MS_Project.pdf>
-Package pdftex.def Info: MS_Project.pdf used on input line 25.
-(pdftex.def)             Requested size: 816.52855pt x 573.46106pt.
- [4]
-<MS_Project.pdf, id=23, page=1, 816.53053pt x 573.46246pt>
-File: MS_Project.pdf Graphic file (type pdf)
-
-<use MS_Project.pdf, page 1>
-Package pdftex.def Info: MS_Project.pdf, page1 used on input line 25.
-(pdftex.def)             Requested size: 816.52855pt x 573.46106pt.
-File: MS_Project.pdf Graphic file (type pdf)
- <use MS_Project.pdf, page 1>
-Package pdftex.def Info: MS_Project.pdf, page1 used on input line 25.
-(pdftex.def)             Requested size: 845.58348pt x 593.8668pt.
-File: MS_Project.pdf Graphic file (type pdf)
-
-<use MS_Project.pdf, page 1>
-Package pdftex.def Info: MS_Project.pdf, page1 used on input line 25.
-(pdftex.def)             Requested size: 845.58348pt x 593.8668pt.
-File: MS_Project.pdf Graphic file (type pdf)
- <use MS_Project.pdf, page 1>
-Package pdftex.def Info: MS_Project.pdf, page1 used on input line 25.
-(pdftex.def)             Requested size: 845.58348pt x 593.8668pt.
-File: MS_Project.pdf Graphic file (type pdf)
-
-<use MS_Project.pdf, page 1>
-Package pdftex.def Info: MS_Project.pdf, page1 used on input line 25.
-(pdftex.def)             Requested size: 845.58348pt x 593.8668pt.
- [5 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/zalozenia/MS_Project.p
-df>])
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\doreczenie.tex
-\c@rownumbercounter=\count112
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\budzet.tex)
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\zarzadzanie.tex)
-
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\przydzial_zadan.
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.lof)
+\tf@lof=\write4
+[1]
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\doreczenie.
 tex
+\c@rownumbercounter=\count113
+)
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\budzet.tex)
+
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\zarzadzanie
+.tex) [2]
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\przydzial_z
+adan.tex
 Overfull \hbox (17.99536pt too wide) in paragraph at lines 7--22
  [] 
  []
 
-) [6] [7]
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\zalozenia\dokument.aux) ) 
+)
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 102.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 102.
+ [3]
+LaTeX Font Info:    Try loading font information for OT4+lmtt on input line 133
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot4lmtt.fd"
+File: ot4lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [4]
+<robot4b.png, id=25, 1084.05pt x 903.375pt>
+File: robot4b.png Graphic file (type png)
+ <use robot4b.png>
+Package pdftex.def Info: robot4b.png used on input line 202.
+(pdftex.def)             Requested size: 560.91379pt x 467.42276pt.
+
+<robot3.png, id=26, 1084.05pt x 903.375pt>
+File: robot3.png Graphic file (type png)
+ <use robot3.png>
+Package pdftex.def Info: robot3.png used on input line 208.
+(pdftex.def)             Requested size: 373.93962pt x 311.60957pt.
+
+<robot2.png, id=27, 1084.05pt x 903.375pt>
+File: robot2.png Graphic file (type png)
+ <use robot2.png>
+Package pdftex.def Info: robot2.png used on input line 214.
+(pdftex.def)             Requested size: 373.93962pt x 311.60957pt.
+
+<schem1.png, id=28, 447.17062pt x 384.6872pt>
+File: schem1.png Graphic file (type png)
+ <use schem1.png>
+Package pdftex.def Info: schem1.png used on input line 225.
+(pdftex.def)             Requested size: 373.93962pt x 321.69691pt.
+ [5] [6 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/rob
+ot4b.png (PNG copy)>] [7 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/r
+aport_koncowy/robot3.png (PNG copy)> <C:/Users/Marcin/Documents/Politechnika/rm
+obilne/doc/raport_koncowy/robot2.png (PNG copy)>]
+<schem2.png, id=41, 551.81157pt x 197.98969pt>
+File: schem2.png Graphic file (type png)
+ <use schem2.png>
+Package pdftex.def Info: schem2.png used on input line 232.
+(pdftex.def)             Requested size: 373.93962pt x 134.17502pt.
+ [8 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/schem1.
+png>]
+<diagram_komunikacji_modulow_img.png, id=46, 780.66656pt x 542.025pt>
+File: diagram_komunikacji_modulow_img.png Graphic file (type png)
+
+<use diagram_komunikacji_modulow_img.png>
+Package pdftex.def Info: diagram_komunikacji_modulow_img.png used on input line
+ 264.
+(pdftex.def)             Requested size: 467.42276pt x 324.5393pt.
+ [9 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/schem2.
+png>]
+<prac1.jpg, id=51, 982.67125pt x 553.06625pt>
+File: prac1.jpg Graphic file (type jpg)
+ <use prac1.jpg>
+Package pdftex.def Info: prac1.jpg used on input line 276.
+(pdftex.def)             Requested size: 714.96173pt x 402.41006pt.
+
+
+LaTeX Warning: Float too large for page by 23.94443pt on input line 279.
+
+<app2.png, id=52, 576.65437pt x 502.87875pt>
+File: app2.png Graphic file (type png)
+ <use app2.png>
+Package pdftex.def Info: app2.png used on input line 288.
+(pdftex.def)             Requested size: 467.42276pt x 407.63649pt.
+
+<app5.png, id=53, 852.93657pt x 615.80063pt>
+File: app5.png Graphic file (type png)
+ <use app5.png>
+Package pdftex.def Info: app5.png used on input line 294.
+(pdftex.def)             Requested size: 714.96173pt x 516.2166pt.
+
+Overfull \hbox (48.79384pt too wide) in paragraph at lines 294--295
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 23.94443pt on input line 297.
+
+[10 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/diagram
+_komunikacji_modulow_img.png>] [11 <C:/Users/Marcin/Documents/Politechnika/rmob
+ilne/doc/raport_koncowy/prac1.jpg>] [12 <C:/Users/Marcin/Documents/Politechnika
+/rmobilne/doc/raport_koncowy/app2.png>] [13 <C:/Users/Marcin/Documents/Politech
+nika/rmobilne/doc/raport_koncowy/app5.png>]
+<error_screen.png, id=70, 245.41687pt x 96.36pt>
+File: error_screen.png Graphic file (type png)
+ <use error_screen.png>
+Package pdftex.def Info: error_screen.png used on input line 324.
+(pdftex.def)             Requested size: 245.41626pt x 96.35974pt.
+
+<app3.png, id=71, 225.84375pt x 207.02344pt>
+File: app3.png Graphic file (type png)
+ <use app3.png>
+Package pdftex.def Info: app3.png used on input line 331.
+(pdftex.def)             Requested size: 225.84319pt x 207.02292pt.
+ [14 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/error_
+screen.png>]
+<app6_small.png, id=76, 170.13562pt x 157.33781pt>
+File: app6_small.png Graphic file (type png)
+ <use app6_small.png>
+Package pdftex.def Info: app6_small.png used on input line 338.
+(pdftex.def)             Requested size: 170.1352pt x 157.33742pt.
+
+<d_klas4.pdf, id=77, 844.65562pt x 596.98032pt>
+File: d_klas4.pdf Graphic file (type pdf)
+ <use d_klas4.pdf>
+Package pdftex.def Info: d_klas4.pdf used on input line 345.
+(pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
+File: d_klas4.pdf Graphic file (type pdf)
+
+<use d_klas4.pdf>
+Package pdftex.def Info: d_klas4.pdf used on input line 345.
+(pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
+ [15 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/app3.p
+ng> <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/app6_sm
+all.png>]
+<d_klas4.pdf, id=85, page=1, 844.65562pt x 596.98032pt>
+File: d_klas4.pdf Graphic file (type pdf)
+
+<use d_klas4.pdf, page 1>
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+(pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
+File: d_klas4.pdf Graphic file (type pdf)
+ <use d_klas4.pdf, page 1>
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+File: d_klas4.pdf Graphic file (type pdf)
+ <use d_klas4.pdf, page 1>
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+File: d_klas4.pdf Graphic file (type pdf)
+
+<use d_klas4.pdf, page 1>
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+File: d_klas4.pdf Graphic file (type pdf)
+ <use d_klas4.pdf, page 1>
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+ [16 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/d_klas
+4.pdf>]
+<przypadki4.pdf, id=97, 844.65562pt x 596.98032pt>
+File: przypadki4.pdf Graphic file (type pdf)
+ <use przypadki4.pdf>
+Package pdftex.def Info: przypadki4.pdf used on input line 346.
+(pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
+File: przypadki4.pdf Graphic file (type pdf)
+
+<use przypadki4.pdf>
+Package pdftex.def Info: przypadki4.pdf used on input line 346.
+(pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
+
+<przypadki4.pdf, id=100, page=1, 844.65562pt x 596.98032pt>
+File: przypadki4.pdf Graphic file (type pdf)
+
+<use przypadki4.pdf, page 1>
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+(pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
+File: przypadki4.pdf Graphic file (type pdf)
+ <use przypadki4.pdf, page 1>
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+File: przypadki4.pdf Graphic file (type pdf)
+
+<use przypadki4.pdf, page 1>
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+File: przypadki4.pdf Graphic file (type pdf)
+ <use przypadki4.pdf, page 1>
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+File: przypadki4.pdf Graphic file (type pdf)
+
+<use przypadki4.pdf, page 1>
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+(pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
+ [17 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/przypa
+dki4.pdf>]
+<stancjac.png, id=117, 632.3625pt x 570.63188pt>
+File: stancjac.png Graphic file (type png)
+ <use stancjac.png>
+Package pdftex.def Info: stancjac.png used on input line 352.
+(pdftex.def)             Requested size: 467.42276pt x 421.7995pt.
+
+<stancjad.png, id=118, 632.3625pt x 570.63188pt>
+File: stancjad.png Graphic file (type png)
+ <use stancjad.png>
+Package pdftex.def Info: stancjad.png used on input line 358.
+(pdftex.def)             Requested size: 467.42276pt x 421.7995pt.
+
+Overfull \hbox (3.96371pt too wide) in paragraph at lines 380--381
+[]\OT1/lmr/m/n/10 http://www.python.rk.edu.pl/w/p/sterowanie-silnikami-krokowym
+i-i-serwomechanizmami-za-pomoca-
+ []
+
+[18] [19 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/st
+ancjac.png>] [20 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_ko
+ncowy/stancjad.png (PNG copy)>]
+(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 5099 strings out of 493921
- 71498 string characters out of 3147278
- 144079 words of memory out of 3000000
- 8256 multiletter control sequences out of 15000+200000
- 51048 words of font info for 44 fonts, out of 3000000 for 9000
+ 5489 strings out of 493921
+ 76393 string characters out of 3147278
+ 153171 words of memory out of 3000000
+ 8648 multiletter control sequences out of 15000+200000
+ 58508 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,18n,42p,1249b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
-{
-C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmtt10.pfb>
-Output written on dokument.pdf (7 pages, 386819 bytes).
+ 38i,18n,42p,797b,437s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rmtt.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
+sy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmsc.enc}<C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+ri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on raport.pdf (21 pages, 3492286 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
+ 167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,26 @@
+\select@language {polish}
+\contentsline {section}{\numberline {1}Cel projektu}{2}
+\contentsline {section}{\numberline {2}Kr\IeC {\'o}tki opis projektu}{2}
+\contentsline {section}{\numberline {3}Dor\IeC {\k e}czenie}{2}
+\contentsline {section}{\numberline {4}Bud\IeC {\.z}et}{2}
+\contentsline {section}{\numberline {5}Zarz\IeC {\k a}dzanie projektem i jego monitorowanie}{2}
+\contentsline {section}{\numberline {6}Przydzia\IeC {\l } zada\IeC {\'n}}{3}
+\contentsline {section}{\numberline {7}Funkcjonalno\IeC {\'s}\IeC {\'c}}{3}
+\contentsline {subsection}{\numberline {7.1}Funkcjonalno\IeC {\'s}\IeC {\'c} robota}{3}
+\contentsline {subsection}{\numberline {7.2}Funkcjonalno\IeC {\'s}\IeC {\'c} aplikacji komputerowej}{4}
+\contentsline {section}{\numberline {8}Przebieg sterowania}{4}
+\contentsline {subsection}{\numberline {8.1}Protok\IeC {\'o}\IeC {\l } komunikacyjny}{4}
+\contentsline {subsection}{\numberline {8.2}Kolejne etapy sterowania}{5}
+\contentsline {section}{\numberline {9}Budowa robota}{8}
+\contentsline {subsection}{\numberline {9.1}Po\IeC {\l }\IeC {\k a}czenia elektryczne}{8}
+\contentsline {subsection}{\numberline {9.2}Kosztorys}{9}
+\contentsline {subsection}{\numberline {9.3}Oprogramowanie robota}{9}
+\contentsline {subsection}{\numberline {9.4}Ostateczny efekt robota}{10}
+\contentsline {section}{\numberline {10}Wygl\IeC {\k a}d aplikacji komputerowej}{10}
+\contentsline {subsection}{\numberline {10.1}Wid\IeC {\.z}ety dokowane}{10}
+\contentsline {subsection}{\numberline {10.2}Widok 3D}{14}
+\contentsline {subsection}{\numberline {10.3}Dodatkowe okna}{14}
+\contentsline {subsection}{\numberline {10.4}Diagramy}{15}
+\contentsline {section}{\numberline {11}Test robota}{18}
+\contentsline {section}{\numberline {12}Podsumowanie}{18}
+\contentsline {section}{\numberline {13}Materia\IeC {\l }y \IeC {\'z}r\IeC {\'o}d\IeC {\l }owe}{18}
