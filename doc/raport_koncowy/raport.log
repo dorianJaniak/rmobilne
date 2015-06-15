@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.10)  15 JUN 2015 20:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.10)  15 JUN 2015 20:49
 entering extended mode
 **raport.tex
 (C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.tex
@@ -635,26 +635,24 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 tex
 \c@rownumbercounter=\count113
 )
-(C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\budzet.tex)
-
 (C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\zarzadzanie
-.tex) [2]
+.tex)
 (C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\przydzial_z
 adan.tex
-Overfull \hbox (17.99536pt too wide) in paragraph at lines 7--22
+Overfull \hbox (17.99536pt too wide) in paragraph at lines 6--21
  [] 
  []
 
-)
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 102.
+[2])
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 101.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 102.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 101.
  [3]
-LaTeX Font Info:    Try loading font information for OT4+lmtt on input line 133
+LaTeX Font Info:    Try loading font information for OT4+lmtt on input line 132
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot4lmtt.fd"
@@ -663,25 +661,25 @@ File: ot4lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <robot4b.png, id=25, 1084.05pt x 903.375pt>
 File: robot4b.png Graphic file (type png)
  <use robot4b.png>
-Package pdftex.def Info: robot4b.png used on input line 202.
+Package pdftex.def Info: robot4b.png used on input line 201.
 (pdftex.def)             Requested size: 560.91379pt x 467.42276pt.
 
 <robot3.png, id=26, 1084.05pt x 903.375pt>
 File: robot3.png Graphic file (type png)
  <use robot3.png>
-Package pdftex.def Info: robot3.png used on input line 208.
+Package pdftex.def Info: robot3.png used on input line 207.
 (pdftex.def)             Requested size: 373.93962pt x 311.60957pt.
 
 <robot2.png, id=27, 1084.05pt x 903.375pt>
 File: robot2.png Graphic file (type png)
  <use robot2.png>
-Package pdftex.def Info: robot2.png used on input line 214.
+Package pdftex.def Info: robot2.png used on input line 213.
 (pdftex.def)             Requested size: 373.93962pt x 311.60957pt.
 
 <schem1.png, id=28, 447.17062pt x 384.6872pt>
 File: schem1.png Graphic file (type png)
  <use schem1.png>
-Package pdftex.def Info: schem1.png used on input line 225.
+Package pdftex.def Info: schem1.png used on input line 224.
 (pdftex.def)             Requested size: 373.93962pt x 321.69691pt.
  [5] [6 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/rob
 ot4b.png (PNG copy)>] [7 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/r
@@ -690,159 +688,159 @@ obilne/doc/raport_koncowy/robot2.png (PNG copy)>]
 <schem2.png, id=41, 551.81157pt x 197.98969pt>
 File: schem2.png Graphic file (type png)
  <use schem2.png>
-Package pdftex.def Info: schem2.png used on input line 232.
+Package pdftex.def Info: schem2.png used on input line 231.
 (pdftex.def)             Requested size: 373.93962pt x 134.17502pt.
  [8 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/schem1.
-png>]
-<diagram_komunikacji_modulow_img.png, id=46, 780.66656pt x 542.025pt>
+png> <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/schem2
+.png>]
+<diagram_komunikacji_modulow_img.png, id=47, 780.66656pt x 542.025pt>
 File: diagram_komunikacji_modulow_img.png Graphic file (type png)
 
 <use diagram_komunikacji_modulow_img.png>
 Package pdftex.def Info: diagram_komunikacji_modulow_img.png used on input line
- 264.
+ 263.
 (pdftex.def)             Requested size: 467.42276pt x 324.5393pt.
- [9 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/schem2.
-png>]
-<prac1.jpg, id=51, 982.67125pt x 553.06625pt>
+
+<prac1.jpg, id=48, 982.67125pt x 553.06625pt>
 File: prac1.jpg Graphic file (type jpg)
  <use prac1.jpg>
-Package pdftex.def Info: prac1.jpg used on input line 276.
+Package pdftex.def Info: prac1.jpg used on input line 275.
 (pdftex.def)             Requested size: 714.96173pt x 402.41006pt.
 
 
-LaTeX Warning: Float too large for page by 23.94443pt on input line 279.
+LaTeX Warning: Float too large for page by 23.94443pt on input line 278.
 
-<app2.png, id=52, 576.65437pt x 502.87875pt>
+[9 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/diagram_
+komunikacji_modulow_img.png>] <app2.png, id=53, 576.65437pt x 502.87875pt>
 File: app2.png Graphic file (type png)
- <use app2.png>
-Package pdftex.def Info: app2.png used on input line 288.
-(pdftex.def)             Requested size: 467.42276pt x 407.63649pt.
 
-<app5.png, id=53, 852.93657pt x 615.80063pt>
+<use app2.png>
+Package pdftex.def Info: app2.png used on input line 287.
+(pdftex.def)             Requested size: 467.42276pt x 407.63649pt.
+ <app5.png, id=54, 852.93657pt x 615.80063pt>
 File: app5.png Graphic file (type png)
  <use app5.png>
-Package pdftex.def Info: app5.png used on input line 294.
+Package pdftex.def Info: app5.png used on input line 293.
 (pdftex.def)             Requested size: 714.96173pt x 516.2166pt.
 
-Overfull \hbox (48.79384pt too wide) in paragraph at lines 294--295
+Overfull \hbox (48.79384pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 23.94443pt on input line 297.
+LaTeX Warning: Float too large for page by 23.94443pt on input line 296.
 
-[10 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/diagram
-_komunikacji_modulow_img.png>] [11 <C:/Users/Marcin/Documents/Politechnika/rmob
-ilne/doc/raport_koncowy/prac1.jpg>] [12 <C:/Users/Marcin/Documents/Politechnika
-/rmobilne/doc/raport_koncowy/app2.png>] [13 <C:/Users/Marcin/Documents/Politech
-nika/rmobilne/doc/raport_koncowy/app5.png>]
-<error_screen.png, id=70, 245.41687pt x 96.36pt>
+[10] [11 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/pr
+ac1.jpg>] [12 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_konco
+wy/app2.png>] [13 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_k
+oncowy/app5.png>] <error_screen.png, id=70, 245.41687pt x 96.36pt>
 File: error_screen.png Graphic file (type png)
- <use error_screen.png>
-Package pdftex.def Info: error_screen.png used on input line 324.
+
+<use error_screen.png>
+Package pdftex.def Info: error_screen.png used on input line 323.
 (pdftex.def)             Requested size: 245.41626pt x 96.35974pt.
-
-<app3.png, id=71, 225.84375pt x 207.02344pt>
+ <app3.png, id=71, 225.84375pt x 207.02344pt>
 File: app3.png Graphic file (type png)
- <use app3.png>
-Package pdftex.def Info: app3.png used on input line 331.
-(pdftex.def)             Requested size: 225.84319pt x 207.02292pt.
- [14 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/error_
-screen.png>]
-<app6_small.png, id=76, 170.13562pt x 157.33781pt>
-File: app6_small.png Graphic file (type png)
- <use app6_small.png>
-Package pdftex.def Info: app6_small.png used on input line 338.
-(pdftex.def)             Requested size: 170.1352pt x 157.33742pt.
 
-<d_klas4.pdf, id=77, 844.65562pt x 596.98032pt>
+<use app3.png>
+Package pdftex.def Info: app3.png used on input line 330.
+(pdftex.def)             Requested size: 225.84319pt x 207.02292pt.
+ <app6_small.png, id=72, 170.13562pt x 157.33781pt>
+File: app6_small.png Graphic file (type png)
+
+<use app6_small.png>
+Package pdftex.def Info: app6_small.png used on input line 337.
+(pdftex.def)             Requested size: 170.1352pt x 157.33742pt.
+ [14 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/error_
+screen.png> <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy
+/app3.png>]
+<d_klas4.pdf, id=78, 844.65562pt x 596.98032pt>
 File: d_klas4.pdf Graphic file (type pdf)
  <use d_klas4.pdf>
-Package pdftex.def Info: d_klas4.pdf used on input line 345.
+Package pdftex.def Info: d_klas4.pdf used on input line 344.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 File: d_klas4.pdf Graphic file (type pdf)
 
 <use d_klas4.pdf>
-Package pdftex.def Info: d_klas4.pdf used on input line 345.
+Package pdftex.def Info: d_klas4.pdf used on input line 344.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
- [15 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/app3.p
-ng> <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/app6_sm
-all.png>]
+ [15 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/app6_s
+mall.png>]
 <d_klas4.pdf, id=85, page=1, 844.65562pt x 596.98032pt>
 File: d_klas4.pdf Graphic file (type pdf)
 
 <use d_klas4.pdf, page 1>
-Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 344.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 File: d_klas4.pdf Graphic file (type pdf)
  <use d_klas4.pdf, page 1>
-Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 344.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
 File: d_klas4.pdf Graphic file (type pdf)
  <use d_klas4.pdf, page 1>
-Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 344.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
 File: d_klas4.pdf Graphic file (type pdf)
 
 <use d_klas4.pdf, page 1>
-Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 344.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
 File: d_klas4.pdf Graphic file (type pdf)
  <use d_klas4.pdf, page 1>
-Package pdftex.def Info: d_klas4.pdf, page1 used on input line 345.
+Package pdftex.def Info: d_klas4.pdf, page1 used on input line 344.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
  [16 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/d_klas
 4.pdf>]
 <przypadki4.pdf, id=97, 844.65562pt x 596.98032pt>
 File: przypadki4.pdf Graphic file (type pdf)
  <use przypadki4.pdf>
-Package pdftex.def Info: przypadki4.pdf used on input line 346.
+Package pdftex.def Info: przypadki4.pdf used on input line 345.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 File: przypadki4.pdf Graphic file (type pdf)
 
 <use przypadki4.pdf>
-Package pdftex.def Info: przypadki4.pdf used on input line 346.
+Package pdftex.def Info: przypadki4.pdf used on input line 345.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 
 <przypadki4.pdf, id=100, page=1, 844.65562pt x 596.98032pt>
 File: przypadki4.pdf Graphic file (type pdf)
 
 <use przypadki4.pdf, page 1>
-Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 345.
 (pdftex.def)             Requested size: 844.65356pt x 596.97885pt.
 File: przypadki4.pdf Graphic file (type pdf)
  <use przypadki4.pdf, page 1>
-Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 345.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
 File: przypadki4.pdf Graphic file (type pdf)
 
 <use przypadki4.pdf, page 1>
-Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 345.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
 File: przypadki4.pdf Graphic file (type pdf)
  <use przypadki4.pdf, page 1>
-Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 345.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
 File: przypadki4.pdf Graphic file (type pdf)
 
 <use przypadki4.pdf, page 1>
-Package pdftex.def Info: przypadki4.pdf, page1 used on input line 346.
+Package pdftex.def Info: przypadki4.pdf, page1 used on input line 345.
 (pdftex.def)             Requested size: 845.69751pt x 597.71669pt.
  [17 <C:/Users/Marcin/Documents/Politechnika/rmobilne/doc/raport_koncowy/przypa
 dki4.pdf>]
 <stancjac.png, id=117, 632.3625pt x 570.63188pt>
 File: stancjac.png Graphic file (type png)
  <use stancjac.png>
-Package pdftex.def Info: stancjac.png used on input line 352.
+Package pdftex.def Info: stancjac.png used on input line 351.
 (pdftex.def)             Requested size: 467.42276pt x 421.7995pt.
 
 <stancjad.png, id=118, 632.3625pt x 570.63188pt>
 File: stancjad.png Graphic file (type png)
  <use stancjad.png>
-Package pdftex.def Info: stancjad.png used on input line 358.
+Package pdftex.def Info: stancjad.png used on input line 357.
 (pdftex.def)             Requested size: 467.42276pt x 421.7995pt.
 
-Overfull \hbox (3.96371pt too wide) in paragraph at lines 380--381
+Overfull \hbox (3.96371pt too wide) in paragraph at lines 379--380
 []\OT1/lmr/m/n/10 http://www.python.rk.edu.pl/w/p/sterowanie-silnikami-krokowym
 i-i-serwomechanizmami-za-pomoca-
  []
@@ -853,9 +851,9 @@ ncowy/stancjad.png (PNG copy)>]
 (C:\Users\Marcin\Documents\Politechnika\rmobilne\doc\raport_koncowy\raport.aux)
  ) 
 Here is how much of TeX's memory you used:
- 5489 strings out of 493921
- 76393 string characters out of 3147278
- 153171 words of memory out of 3000000
+ 5486 strings out of 493921
+ 76233 string characters out of 3147278
+ 154170 words of memory out of 3000000
  8648 multiletter control sequences out of 15000+200000
  58508 words of font info for 40 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -872,7 +870,7 @@ MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 ri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on raport.pdf (21 pages, 3492249 bytes).
+Output written on raport.pdf (21 pages, 3501041 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
